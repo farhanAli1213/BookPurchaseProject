@@ -1,0 +1,41 @@
+{
+    "name": "MiniBook",
+    "version": "1.0.0",
+    "description": "node,momgo and mongoose project",
+    "main": "app.js",
+    "scripts": {
+      "start:dev": "nodemon server.js",
+      "start:prod": "set NODE_ENV=production&nodemon server.js",
+      "debug": "ndb server.js"
+    },
+    "author": "Farhan Ali",
+    "license": "ISC",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.20.2",
+      "cookie-parser": "^1.4.6",
+      "dotenv": "^16.0.3",
+      "enum": "^3.0.4",
+      "express": "^4.18.2",
+      "express-rate-limit": "^6.7.0",
+      "html-to-text": "^5.1.1",
+      "jsonwebtoken": "^9.0.0",
+      "moment": "^2.29.4",
+      "mongoose": "^6.9.2",
+      "morgan": "^1.10.0",
+      "multer": "^1.4.5-lts.1",
+      "node-cron": "^3.0.2",
+      "nodemailer": "^6.9.1",
+      "path": "^0.12.7",
+      "pug": "^3.0.2",
+      "redis": "^4.6.5",
+      "sharp": "^0.31.3",
+      "slugify": "^1.6.5",
+      "stripe": "^7.0.0",
+      "validator": "^13.9.0"
+    },
+    "devDependencies": {
+      "ndb": "^1.1.5"
+    }
+  }
+  
